@@ -1,0 +1,23 @@
+#Global
+{
+    background-color: rgb(142, 142, 223);
+    width: 50%;
+    margin: 0 20% 0 20%;
+    border: 10px solid color "black";
+}
+#contenedor{
+    position: relative;
+    margin: 0 20% 0 30%;
+    
+}
+
+#N1{
+    padding: 20px 0 0 0;
+}
+#N2{
+
+}
+
+input{
+  
+}
