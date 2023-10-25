@@ -1,23 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Lato:ital,wght@1,100&family=League+Spartan:wght@100&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 #Global
 {
-    background-color: rgb(142, 142, 223);
-    width: 50%;
-    margin: 0 20% 0 20%;
-    border: 10px solid color "black";
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 }
 #contenedor{
-    position: relative;
-    margin: 0 20% 0 30%;
-    
+    width: 300px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.3rem 0.1rem;
+    background-color: aqua;
 }
 
+@media (max-width:678px) {
+    #contenedor{background-color: brown;}
+}
 #N1{
     padding: 20px 0 0 0;
 }
-#N2{
+label{
+    font-size: 18px;
+}
+input{
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 10px;
 
 }
 
-input{
-  
+button{
+    border: 0;
+  padding: 7px;
+  border-radius: 7px;
+
+}
+
+button:hover {
+    background-color: rgb(50, 51, 51);
+    color: white;
+    cursor: pointer;
+}
+
+.bcontenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.Resultado{
+    text-align: center;
+    
+}
+.Resultado  >label{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }

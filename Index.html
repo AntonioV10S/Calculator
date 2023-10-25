@@ -7,8 +7,8 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <form id="F1">
-        <div id="Global">
+    <div id="Global">
+            <form id="F1">
             <div id="contenedor">
                 <div id="N1">
                     <label for="">Numero 1</label>
@@ -21,18 +21,19 @@
                 <input type="text" name="" id="n2">
                 </div><br>
                 
-                <input type="button" onclick="Sumar()" value="Sumar">
-                
-                <input type="button" onclick="Restar()" value="Restar">
-        
-                <input type="button" onclick="Multiplicar()" value="Multiplicar">
-        
-                <input type="button" onclick="Dividir()" value="Dividir">
+                <div class="bcontenedor">
+                    <button type="button" onclick="Sumar()">Sumar</button>
+                    <button type="button" onclick="Restar()" >Restar</button>
+                    <button type="button" onclick="Multiplicar()" >Multiplicar</button>
+                    <button type="button" onclick="Dividir()" >Dividir</button>
+                </div>
         
                 <br>
-                <label id="Resultado">Resultado <span> 25</span></label>
+                <div class="Resultado">
+                    <label>Resultado <span></span></label>
+                </div>
             </div>
+        </form>
         </div>
-    </form>
 </body>
 </html>
